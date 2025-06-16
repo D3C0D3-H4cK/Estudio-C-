@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+
+int i=1,p;
+
+cout<<"ingrese un numero que desee multiplicar"<<endl;
+cin>>p;
+
+while (i<=10)
+{
+    cout<<"la tabla es la siguiente= "<<p*i<<endl;
+    i++;
+}
+
+return 0;
+}
